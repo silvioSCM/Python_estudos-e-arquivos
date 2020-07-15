@@ -1,0 +1,11 @@
+
+
+Carro baiola v.1.2 Beta_Tester
+
+Passeando pela Rota R5 com Júlio Rogério, você sentirá a sensação de trabalhar
+na Av. Brasil como operador/técnico de radar fixo. Caso necessite de ajuda,
+basta digitar "ajuda" no cursor de comando.
+
+Divirta-se.
+
+Programed by Silvio Macedo.

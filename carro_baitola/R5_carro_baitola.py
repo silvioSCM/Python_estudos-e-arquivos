@@ -20,7 +20,7 @@ try:
     if nome in feios:
         raise NameError('Xiiii')
 except NameError:
-    print('O programa não gostou do seu nome...Muito feio!! ')
+    print('Xiiiii...O programa não gostou do seu nome...Muito feio!! ')
     time.sleep(1)
 print('')
 print(f'{nome},vamos começar! Basta digitar os comandos, e vamo embora antes que dê ruim ')
@@ -44,7 +44,7 @@ while True:
 
     elif command == 'buzine':
         print("Sai do caminho!! é um cú d'água mesmo!! ")
-        time.sleep(1)
+        time.sleep(2)
         print('Como tem neguinho fazendo merda na pista!!')
 
     elif command == 'ajuda':
@@ -63,11 +63,11 @@ radio - Rádio do Baitola
 
     elif command == 'xingar':
         print('Vai chupar um canavial de rola seu baitola!! ')
-        time.sleep(1)
+        time.sleep(2)
         print('Gosta de laranja? Vou te arrumar um saco pra você chupar!! E GRANDE!! ')
-        time.sleep(1)
+        time.sleep(2)
         print('Vai dar 1/2 hora sem relógio seu baitola! ')
-        time.sleep(1)
+        time.sleep(2)
         print('Ah!! Vê se vai num rodízio de rola seu baitola!!!')
 
     elif command == 'sair':
@@ -89,38 +89,38 @@ radio - Rádio do Baitola
                 print('Vou botar a escada baitola!!. Deixa que depois eu tiro!! ')
 
     elif command == 'radio':
-    	print('~' * 30)
-    	print('Selecione a música...')
-    	print('1 - Bibaitola')
-    	print('2 - Chá de baitola')
-    	print('3 - Holiday foi muito')
-    	print('0 - Desligar rádio / sair')
-    	print('~' * 30)
-    	resp = int(input('Selecione..'))
-    	if resp == 1:
-    		pygame.init()
-	    	pygame.mixer_music.load('baitola.mp3')
-	    	pygame.mixer_music.play()
-    #        pygame.event.wait()
+        print('~' * 30)
+        print('Selecione a música...')
+        print('1 - Bibaitola')
+        print('2 - Chá de baitola')
+        print('3 - Holiday foi muito')
+        print('0 - Desligar rádio / sair')
+        print('~' * 30)
+        resp = int(input('Selecione..'))
+        if resp == 1:
+            pygame.init()
+            pygame.mixer_music.load('baitola.mp3')
+            pygame.mixer_music.play()
+        #        pygame.event.wait()
 
-    	elif resp == 2:
-    		pygame.init()
-    		pygame.mixer_music.load('cha_de_baitola.mp3')
-    		pygame.mixer_music.play()
-    	
-    	elif resp == 3:
-    		pygame.init()
-    		pygame.mixer_music.load('Holiday_foi_muito.mp3')
-    		pygame.mixer_music.play()
-    	
-    	elif resp == 0:
-    		pygame.init()    		
-    		pygame.mixer_music.stop()
-    		continue
-    		    	
-    	else:
-    		print('Baitola, esse sucesso NÃO TEM!!! Liga de novo e selecione um da lista!!! SEU BAITOLA!!')
-    	
+        elif resp == 2:
+            pygame.init()
+            pygame.mixer_music.load('cha_de_baitola.mp3')
+            pygame.mixer_music.play()
+
+        elif resp == 3:
+            pygame.init()
+            pygame.mixer_music.load('Holiday_foi_muito.mp3')
+            pygame.mixer_music.play()
+
+        elif resp == 0:
+            pygame.init()
+            pygame.mixer_music.stop()
+            continue
+
+        else:
+            print('Baitola, esse sucesso NÃO TEM!!! Liga de novo e selecione um da lista!!! SEU BAITOLA!!')
+
 
     elif command == 'julio':
         if conversa:
